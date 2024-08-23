@@ -267,7 +267,8 @@ open class RAMAnimatedTabBarController: UITabBarController {
                 navVC.popToRootViewController(animated: true)
             }
         }
-        delegate?.tabBarController?(self, didSelect: controller)
+        //先注释掉 解决触发2次的问题, 目前有什么隐患不清楚
+        //delegate?.tabBarController?(self, didSelect: controller)
     }
 }
 

@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 //
 //  Package.swift
 //
@@ -29,7 +29,7 @@ import PackageDescription
 let package = Package(
     name: "RAMAnimatedTabBarController",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "RAMAnimatedTabBarController",
